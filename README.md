@@ -1,10 +1,6 @@
 # betana-platform
 
-Pour regler le probleme de repo avec docker-compose :
-
-- Créer un nouveau repo avec comme dependances les repos de front et de back. Grace a gitsubmodules
-
-- Pour faire fonctionner le repo globale avec les dependances :
+# Install
 
 1 - git clone git@github.com:betana-io/betana-platform.git // cloner le projet global
 
