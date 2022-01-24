@@ -4,7 +4,7 @@ services:
     container_name: betana-front
     image: node:slim
     working_dir: "/app"
-    command: "npm run start"
+    command: "npm start"
     volumes:
       - ./betana-front:/app
     ports:
