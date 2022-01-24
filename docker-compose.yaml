@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  betana-front:
+    container_name: betana-front
+    image: node:slim
+    working_dir: "/app"
+    command: "npm run dev"
+    volumes:
+      - ./betana-front:/app
+    ports:
+      - "${PORT_FRONT}:3000"
